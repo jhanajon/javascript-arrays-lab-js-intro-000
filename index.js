@@ -29,7 +29,7 @@ function appendKitten(name) {
 
 //coulcn't get this to work
 function prependKitten(name) {
-var kittens3 = kittens.splice(0, 0, 'name')
+var kittens3 = kittens.slice(0, 0, 'name')
   return(kittens3)
 }
 
