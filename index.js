@@ -33,8 +33,8 @@ function appendKitten(name) {
 //   return(kittens3)
 // }
 
-// function prependKitten(name) {
-//   var kittens3 = kittens
-//   [name, ...kittens]
-//   return(kittens3)
-// }
+function prependKitten(name) {
+
+  [name, ...kittens]
+  return(kittens)
+}
