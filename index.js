@@ -27,15 +27,16 @@ function appendKitten(name) {
   return(kittens2)
 }
 
-// function prependKitten(name) {
-// var kittens3 = kittens.splice(0, 0, 'name')
-//   return(kittens3)
-// }
-
+//coulcn't get this to work
 function prependKitten(name) {
-  var moreKittens = [name, ...kittens]
-  return(moreKittens)
+var kittens3 = kittens.splice(0, 1, 'name')
+  return(kittens3)
 }
+
+// function prependKitten(name) {
+//   var moreKittens = [name, ...kittens]
+//   return(moreKittens)
+// }
 
 function removeLastKitten() {
   var kittensLastRemoved = kittens.slice(0, -1)
